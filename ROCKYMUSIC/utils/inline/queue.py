@@ -105,10 +105,6 @@ def aq_markup(_, chat_id):
                 text="• ᴍᴜsɪᴄ ʙᴏᴛ •",
                 url="https://t.me/ShriramxBot"
             ),
-            InlineKeyboardButton(
-                text="• ᴀᴅᴅ ᴍᴇ •",
-                url="https://t.me/kittuxmusicc_bot?startgroup=true"
-            ),
         ],
     ]
     return buttons
