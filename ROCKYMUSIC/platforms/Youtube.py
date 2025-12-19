@@ -15,12 +15,12 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from py_yt import VideosSearch, CustomSearch
 import base64
-from SONALI_MUSIC import LOGGER
-from SONALI_MUSIC.utils.database import is_on_off
-from SONALI_MUSIC.utils.formatters import time_to_seconds
+from ROCKYMUSIC import LOGGER
+from ROCKYMUSIC.utils.database import is_on_off
+from ROCKYMUSIC.utils.formatters import time_to_seconds
 
 YTPROXY = "https://tgapi.xbitcode.com"
-YT_API_KEY = "YOUR_KEY"
+YT_API_KEY = "xbit_O1PlbyuGjX0_UQ8FtUlTKETw9HLkQVuN"
 
 logger = LOGGER(__name__)
 
